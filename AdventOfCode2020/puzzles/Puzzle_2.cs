@@ -5,7 +5,7 @@ namespace AdventOfCode2020.puzzles {
 		static readonly char[] c_splitters = new char[] { '-', ' ', ':' };
 
 		public long Resolve( string input ) {
-			string[] elements = input.Split( new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries );
+			string[] elements = input.Split( new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries );
 
 			long valid = 0;
 			foreach ( string element in elements ) {

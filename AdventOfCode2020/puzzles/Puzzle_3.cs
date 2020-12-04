@@ -46,7 +46,7 @@ namespace AdventOfCode2020.puzzles {
 	class Puzzle_3_1 : Puzzle_3 {
 
 		public override long Resolve( string input ) {
-			string[] lines = input.Split( new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries );
+			string[] lines = input.Split( new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries );
 			return CollisionsForMove( lines, new Point2( 3, 1 ) );
 		}
 	}
@@ -54,7 +54,7 @@ namespace AdventOfCode2020.puzzles {
 	class Puzzle_3_2 : Puzzle_3 {
 
 		public override long Resolve( string input ) {
-			string[] lines = input.Split( new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries );
+			string[] lines = input.Split( new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries );
 			long mult = 1;
 			mult *= CollisionsForMove( lines, new Point2( 1, 1 ) );
 			mult *= CollisionsForMove( lines, new Point2( 3, 1 ) );

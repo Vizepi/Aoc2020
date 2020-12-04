@@ -7,7 +7,7 @@ namespace AdventOfCode2020.puzzles {
 		}
 
 		public long Resolve( string input ) {
-			string[] elements = input.Split( new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries );
+			string[] elements = input.Split( new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries );
 			int[] iElements = new int[ elements.Length ];
 			try {
 				for ( int i = 0; i < elements.Length; ++i ) {
