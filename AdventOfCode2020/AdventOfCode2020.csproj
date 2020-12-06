@@ -38,22 +38,106 @@
   <ItemGroup>
     <Compile Include="IPuzzle.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="puzzles\Puzzle_1.cs" />
-    <Compile Include="puzzles\Puzzle_2.cs" />
-    <Compile Include="puzzles\Puzzle_3.cs" />
-    <Compile Include="puzzles\Puzzle_4.cs" />
+    <Compile Include="puzzles\Puzzle_01.cs" />
+    <Compile Include="puzzles\Puzzle_10.cs" />
+    <Compile Include="puzzles\Puzzle_11.cs" />
+    <Compile Include="puzzles\Puzzle_12.cs" />
+    <Compile Include="puzzles\Puzzle_13.cs" />
+    <Compile Include="puzzles\Puzzle_14.cs" />
+    <Compile Include="puzzles\Puzzle_15.cs" />
+    <Compile Include="puzzles\Puzzle_16.cs" />
+    <Compile Include="puzzles\Puzzle_17.cs" />
+    <Compile Include="puzzles\Puzzle_18.cs" />
+    <Compile Include="puzzles\Puzzle_19.cs" />
+    <Compile Include="puzzles\Puzzle_02.cs" />
+    <Compile Include="puzzles\Puzzle_20.cs" />
+    <Compile Include="puzzles\Puzzle_21.cs" />
+    <Compile Include="puzzles\Puzzle_22.cs" />
+    <Compile Include="puzzles\Puzzle_23.cs" />
+    <Compile Include="puzzles\Puzzle_24.cs" />
+    <Compile Include="puzzles\Puzzle_25.cs" />
+    <Compile Include="puzzles\Puzzle_03.cs" />
+    <Compile Include="puzzles\Puzzle_04.cs" />
+    <Compile Include="puzzles\Puzzle_05.cs" />
+    <Compile Include="puzzles\Puzzle_06.cs" />
+    <Compile Include="puzzles\Puzzle_07.cs" />
+    <Compile Include="puzzles\Puzzle_08.cs" />
+    <Compile Include="puzzles\Puzzle_09.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="inputs\input_1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="inputs\input_10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_11.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_16.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_17.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_18.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_19.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="inputs\input_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_20.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_21.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_22.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_23.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_24.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_25.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="inputs\input_3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="inputs\input_4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\input_9.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="tests\test_1_1.txt">
@@ -69,6 +153,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="tests\test_4_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tests\test_5_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tests\test_6_1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
