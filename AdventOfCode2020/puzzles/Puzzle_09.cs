@@ -13,7 +13,7 @@ namespace AdventOfCode2020.puzzles {
 				return -2;
 			}
 
-			if ( numberStrs.Length < preambleSize ) {
+			if ( numberStrs.Length <= preambleSize ) {
 				return -3;
 			}
 
@@ -42,6 +42,22 @@ namespace AdventOfCode2020.puzzles {
 
 		public string ErrorCodeToString( long code ) {
 			switch ( code ) {
+			case -1:
+				return "Invalid number of inputs, at least preamble size expected";
+			case -2:
+				return "Failed to parse preamble size";
+			case -3:
+				return "Preamble size bigger than input size";
+			case -4:
+				return "Failed to parse preamble number";
+			case -5:
+				return "Failed to parse number";
+			case -6:
+				return "Invalid number not found";
+			case -7:
+				return "Not enough numbers to add. Expected at least 2";
+			case -8:
+				return "No consecutive numbers sum up to the invalid number";
 			default:
 				if ( code < 0 ) {
 					return "Unknown error";
