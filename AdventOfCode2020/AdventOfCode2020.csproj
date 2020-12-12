@@ -149,6 +149,9 @@
     <Content Include="tests\test_10_2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="tests\test_12_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="tests\test_1_1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
