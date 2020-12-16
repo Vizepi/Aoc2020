@@ -136,8 +136,6 @@ namespace AdventOfCode2020.puzzles {
 
 	class Puzzle_12_2 : Puzzle_12 {
 		protected override long MoveShip( Point ship, Point waypoint, Instruction[] instructions ) {
-			double degToRad = Math.PI / 180.0;
-
 			foreach ( Instruction inst in instructions ) {
 				switch ( inst.action ) {
 				case Action.North:
