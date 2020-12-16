@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace AdventOfCode2020.puzzles {
 	abstract class Puzzle_15 : IPuzzle {
@@ -37,6 +36,8 @@ namespace AdventOfCode2020.puzzles {
 
 		public string ErrorCodeToString( long code ) {
 			switch ( code ) {
+			case -1:
+				return "Failed to parse input number";
 			default:
 				if ( code < 0 ) {
 					return "Unknown error";
