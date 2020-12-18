@@ -2,21 +2,6 @@
 
 namespace AdventOfCode2020.puzzles {
 	abstract class Puzzle_18 : IPuzzle {
-		enum Operation {
-			Add,
-			Mutiply,
-			Set
-		}
-
-		class Node {
-			public Operation operation;
-			public long value;
-			public bool parenthesised;
-			public Node parent;
-			public Node left;
-			public Node right;
-		}
-
 		public long Resolve( string input ) {
 			string[] expressions = input.Split( new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries );
 
